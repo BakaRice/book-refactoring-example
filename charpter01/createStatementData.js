@@ -5,7 +5,7 @@ export default function createStatementData(invoice, plays) {
     result.totalAmount = totalAmount(result);
     result.totalVolumeCredits = totalVolumeCredits(result);
     return result;
-
+    
     function enrichPerformance(aPerformance) {
         const result = Object.assign({}, aPerformance);
         result.play = playFor(result);

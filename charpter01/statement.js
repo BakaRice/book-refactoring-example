@@ -61,6 +61,9 @@ function statement(invoice, plays) {
 }
 
 
+/**
+ * 实例实验代码
+ */
 let plays = {
     "hamlet": { "name": "Hamlet", "type": "tragedy" },
     "as-like": { "name": "As You Like It", "type": "comedy" },
