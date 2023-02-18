@@ -1,7 +1,8 @@
 
+# 范例：包含条件逻辑的移动
 
-## 范例：包含条件逻辑的移动
 - before
+
 ```js
 
 let result;
@@ -14,7 +15,9 @@ if (availableResources.length === 0) {
 }
 return result;
 ```
+
 - after
+
 ```js
 
 let result;

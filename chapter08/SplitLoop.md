@@ -1,4 +1,7 @@
+# Spilt Loop
+
 before:
+
 ```js
 let averageAge = 0;
 let totalSalary = 0;
@@ -10,6 +13,7 @@ averageAge = averageAge / people.length;
 ```
 
 after:
+
 ```js
 let averageAge = 0;
 let totalSalary = 0;
