@@ -1,6 +1,6 @@
 /**
- * 移动语句
- * sidle statements
+ * 以函数调用取代内联代码
+ * Replace Inline Code with Function Call
  */
 let appliesToMass = false;
 for (const s of states) {
